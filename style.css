@@ -1,0 +1,96 @@
+.wrapper {
+    background: linear-gradient(black, rgb(0, 29, 83));
+    text-align: center;
+    font-family: 'Eczar', serif;
+    color: white;
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+#topHalf {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.bombs {
+    background-image: url("images/Bomb.png");
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh;
+    transform: translateZ(-20px) scale(4);
+}
+
+#gameTitle {
+    padding-bottom: 85px;
+    font-size: 10vw;
+}
+
+.transition {
+    aspect-ratio: 3440/1440;
+    background-size: cover;
+    background-image: url("/images/Steps.png");
+}
+
+.updateLog {
+    padding: 3%;
+    background-color: #000000;
+}
+
+.updateLogProperties {
+    padding-right: 20px;
+    height: 1100px;
+    overflow-y: auto;
+}
+
+#logTitle {
+    text-decoration: underline;
+    font-size: 5vw;
+}
+
+#updateDates {
+    font-size: 4vw;
+}
+
+#updateDetails {
+    font-size: 3vw;
+}
+
+.leftAlignArea {
+    text-align: left;
+    font-size: 3vw;
+}
+
+#credits {
+    margin: 0;
+    width: 100vw;
+    background-color: #000000;
+    font-size: 3vw;
+    position: fixed;
+}
+
+@media only screen and (min-width: 1512px) {
+    #gameTitle {
+        font-size: 150px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    #logTitle {
+        font-size: 3vw;
+    }
+    #updateDates {
+        font-size: 2vw;
+    }
+    #updateDetails {
+        font-size: 1vw;
+    }
+    .leftAlignArea {
+        font-size: 1vw;
+    }
+    #credits {
+        font-size: 1vw;
+    }
+}
