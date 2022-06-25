@@ -19,7 +19,7 @@
     background-image: url("images/Bomb.png");
     background-repeat: repeat;
     background-position: center;
-    height: 100vh;
+    height: 120vh;
     transform: translateZ(-20px) scale(4);
 }
 
