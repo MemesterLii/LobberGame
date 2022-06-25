@@ -71,7 +71,7 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     //canvas.style.height = "600px";
 }
 
-canvas.style.width = 80vw;
+canvas.style.width = "80vw";
 
 loadingBar.style.display = "block";
 
