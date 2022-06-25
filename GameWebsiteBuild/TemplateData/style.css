@@ -22,7 +22,14 @@ body {
 #unity-canvas {
     background: #231F20;
     border: 5px solid white;
+    width: 80vw;
     aspect-ratio: 16/9;
+}
+
+@media only screen and (min-width: 1500px){
+    #unity-canvas {
+        width: 960px;
+    }
 }
 
 
