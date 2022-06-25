@@ -62,14 +62,16 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     // performance, uncomment the following line:
     // config.devicePixelRatio = 1;
 
-    canvas.style.width = window.innerWidth + 'px';
-    canvas.style.height = window.innerHeight + 'px';
+    //canvas.style.width = window.innerWidth + 'px';
+    //canvas.style.height = window.innerHeight + 'px';
 } else {
     // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-    canvas.style.width = "960px";
-    canvas.style.height = "600px";
+    //canvas.style.width = "960px";
+    //canvas.style.height = "600px";
 }
+
+canvas.style.width = 80vw;
 
 loadingBar.style.display = "block";
 
