@@ -22,7 +22,7 @@ body {
 #unity-canvas {
     background: #231F20;
     border: 5px solid white;
-    width: 80vw;
+    width: 80vw !important;
     aspect-ratio: 16/9;
 }
 
