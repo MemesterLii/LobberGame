@@ -31,7 +31,8 @@
 .transition {
     aspect-ratio: 3440/1440;
     background-size: cover;
-    background-image: url("/images/Steps.png");
+    background-image: url("images/Steps.png");
+    z-index: 0;
 }
 
 .updateLog {
