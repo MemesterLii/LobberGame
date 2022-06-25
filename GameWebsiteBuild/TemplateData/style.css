@@ -28,7 +28,7 @@ body {
 
 @media only screen and (min-width: 1500px){
     #unity-canvas {
-        width: 960px;
+        width: 960px !important;
     }
 }
 
