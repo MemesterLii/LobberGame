@@ -66,6 +66,7 @@
 #credits {
     margin: 0;
     width: 100vw;
+    border: 2px solid white;
     background-color: #000000;
     font-size: 3vw;
     position: absolute;
