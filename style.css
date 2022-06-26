@@ -70,7 +70,7 @@
     width: 100vw;
     background-color: #000000;
     font-size: 3vw;
-    position: fixed;
+    position: absolute !important;
 }
 
 @media only screen and (min-width: 1512px) {
