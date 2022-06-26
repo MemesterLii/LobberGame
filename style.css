@@ -66,12 +66,9 @@
 #credits {
     margin: 0;
     width: 100vw;
-    height: 25vh;
     background-color: #000000;
     font-size: 3vw;
-    position: relative;
-    top: 100%;
-    transform: translateY(-100%);
+    position: absolute;
 }
 
 @media only screen and (min-width: 1512px) {
