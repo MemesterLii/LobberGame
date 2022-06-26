@@ -66,11 +66,12 @@
 
 #credits {
     margin: 0;
-    margin-bottom: 0px !important;
     width: 100vw;
     background-color: #000000;
     font-size: 3vw;
-    position: absolute !important;
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
 }
 
 @media only screen and (min-width: 1512px) {
