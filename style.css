@@ -19,7 +19,7 @@
     background-image: url("images/Bomb.png");
     background-repeat: repeat;
     background-position: center;
-    height: 120vh;
+    height: 100vh;
     transform: translateZ(-20px) scale(4);
 }
 
@@ -32,7 +32,6 @@
     aspect-ratio: 3440/1440;
     background-size: cover;
     background-image: url("images/Steps.png");
-    z-index: 0;
 }
 
 .updateLog {
@@ -67,7 +66,7 @@
 #credits {
     margin: 0;
     width: 100vw;
-    height: 500px;
+    height: 5000px;
     background-color: #000000;
     font-size: 3vw;
     position: relative;
