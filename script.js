@@ -5,7 +5,7 @@ var progressBarFull = document.querySelector("#unity-progress-bar-full");
 var fullscreenButton = document.querySelector("#unity-fullscreen-button");
 var warningBanner = document.querySelector("#unity-warning");
 
-var mouseCursor = document.querySelector(".cursor");
+// var mouseCursor = document.querySelector(".cursor");
 
 // Shows a temporary message banner/ribbon for a few seconds, or
 // a permanent error message on top of the canvas if type=='error'.
@@ -91,8 +91,8 @@ script.onload = () => {
 };
 document.body.appendChild(script);
 
-window.addEventListener("mousemove", cursor);
+// window.addEventListener("mousemove", cursor);
 
-function cursor(e){
-    mouseCursor.setAttribute("style", "top: " + (e.pageY - 25) + "px; left: " + (e.pageX - 25) + "px;");
-}
+// function cursor(e) {
+//     mouseCursor.setAttribute("style", "top: " + (e.pageY + 1) + "px; left: " + (e.pageX + 2) + "px;");
+// }
