@@ -26,6 +26,7 @@
 #gameTitle {
     padding-bottom: 85px;
     font-size: 10vw;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0052ea
 }
 
 .transition {
