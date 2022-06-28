@@ -94,5 +94,5 @@ document.body.appendChild(script);
 window.addEventListener("mousemove", cursor);
 
 function cursor(e){
-    mouseCursor.setAttribute("style", "top: " + (e.pageY - 25) + "px; left: " + (e.pageX - 25) + "px;";
+    mouseCursor.setAttribute("style", "top: " + (e.pageY - 25) + "px; left: " + (e.pageX - 25) + "px;");
 }
