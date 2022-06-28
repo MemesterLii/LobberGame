@@ -1,3 +1,7 @@
+body {
+    cursor: none;
+}
+
 .wrapper {
     background: linear-gradient(black, rgb(0, 29, 83));
     text-align: center;
