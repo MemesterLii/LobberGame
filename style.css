@@ -59,6 +59,15 @@
     font-size: 3vw;
 }
 
+.logImages {
+    width: 60vw;
+    border: 2px solid white;
+}
+
+.logHyperlinks {
+    color: white;
+}
+
 .leftAlignArea {
     text-align: left;
     font-size: 3vw;
